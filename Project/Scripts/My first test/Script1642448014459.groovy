@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.google.com/')
+WebUI.navigateToUrl('https://www.google.com/', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/input Fly code'), 'fly code')
+WebUI.setText(findTestObject('Object Repository/input Fly code'), 'fly code', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/input Fly code'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/input Fly code'), Keys.chord(Keys.ENTER), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Press Fly Code'))
+WebUI.click(findTestObject('Object Repository/Press Fly Code'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Number'), '+7 499 112 34 72')
+WebUI.verifyElementText(findTestObject('Object Repository/Number'), '+7 499 112 34 72', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_Digital-/Logo'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_Digital-/Logo'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_Digital-/Create'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_Digital-/Create'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.navigateToUrl('https://fly-code.com/')
+WebUI.navigateToUrl('https://fly-code.com/', FailureHandling.CONTINUE_ON_FAILURE)
 

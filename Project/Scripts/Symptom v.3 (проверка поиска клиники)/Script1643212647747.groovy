@@ -17,24 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://www.noob-club.ru/', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl('https://staticsite.symptomd.com/')
 
-'Переход на страницу 14\r\n'
-WebUI.click(findTestObject('Object Repository/Three test(задание) hardmode/click page 14'), FailureHandling.CONTINUE_ON_FAILURE)
+'Открыть список городов\r\n'
+WebUI.click(findTestObject('Object Repository/Symptom/Location'))
 
-'Получаем название заголовка в переменную'
-Op = WebUI.getText(findTestObject('Object Repository/Three test(задание) hardmode/Click on header news'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Symptom/Krasnodar'))
 
-'Открываем страницу с новостью'
-WebUI.click(findTestObject('Object Repository/Three test(задание) hardmode/Click on header news'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Symptom/Gender-M'))
 
-'Получаем в переменную заголовок новости внутри страницы'
-Ip = WebUI.getText(findTestObject('Object Repository/Three test(задание) hardmode/Header new on page'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Symptom/Age 65'), '65')
 
-'Сравниваем результаты'
-WebUI.verifyMatch(Op, Ip, true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Symptom/Button clinic'))
+
+WebUI.click(findTestObject('Object Repository/Symptom/Button city'))
+
+WebUI.click(findTestObject('Object Repository/Symptom/Press Seint-Petersburg'))
+
+WebUI.setText(findTestObject('Object Repository/Symptom/Imput Voronezh'), 'Воронеж')
+
+WebUI.click(findTestObject('Object Repository/Symptom/Press Voronezh'))
+
+WebUI.switchToWindowUrl('https://staticsite.symptomd.com/clinic/spbmedika')
+
+WebUI.click(findTestObject('Object Repository/Symptom/Press site'))
 
