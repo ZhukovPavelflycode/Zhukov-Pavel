@@ -21,26 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://staticsite.symptomd.com/')
+WebUI.navigateToUrl('https://symptomd.ru/')
 
 'Открыть список городов\r\n'
-WebUI.click(findTestObject('Object Repository/Symptom/Location'))
+WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Location'))
 
 'Выбрать Москва'
-WebUI.click(findTestObject('Symptom/Moscow'))
+WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Moscow'))
 
 'Сменить пол на "М"'
-WebUI.click(findTestObject('Object Repository/Symptom/Gender_M'))
+WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Gender_M'))
 
 'Сменить возраст на "20"'
-WebUI.setText(findTestObject('Symptom/Age 20'), '20')
+WebUI.setText(findTestObject('Object Repository/Symptom/Symptom/Age 20'), '20')
 
 'Перейти на вкладку "Симптомы"'
-WebUI.click(findTestObject('Object Repository/Symptom/Symptom tab'))
+WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Symptom tab'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Symptom/Page_/Examination 33'), '33')
 
 'Ввести в поиске "Кашель"'
-WebUI.setText(findTestObject('Object Repository/Symptom/Input cough'), 'Кашель')
+WebUI.setText(findTestObject('Object Repository/Symptom/Symptom/Input cough'), 'Кашель')
 
 'Зайти в карточку "Кашель"'
-WebUI.click(findTestObject('Object Repository/Symptom/Card enty'))
+WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Card enty'))
 

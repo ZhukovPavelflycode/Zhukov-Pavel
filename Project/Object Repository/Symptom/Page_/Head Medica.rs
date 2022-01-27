@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Press Fly Code</name>
+   <name>Head Medica</name>
    <tag></tag>
-   <elementGuidId>32c63b29-2d28-4873-9c3e-10711565eff0</elementGuidId>
+   <elementGuidId>8c4d08a3-0873-4537-bfa3-91a2d818b66d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[7]/div/div[10]/div[1]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/a/h3</value>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[2]/div[4]/div[1]/div[2]/a[9]/div[2]/h3</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h3.LC20lb.MBeuO.DKV0Md</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,69 +28,82 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>LC20lb MBeuO DKV0Md</value>
+      <value>card__title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Fly Code</value>
+      <value>
+      Медика
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;rso&quot;)/div[@class=&quot;g tF2Cxc&quot;]/div[@class=&quot;jtfYYd&quot;]/div[@class=&quot;NJo7tc Z26q7c jGGQ5e&quot;]/div[@class=&quot;yuRUbf&quot;]/a[1]/h3[@class=&quot;LC20lb MBeuO DKV0Md&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;application--wrap&quot;]/div[@class=&quot;content-container grid-content-list&quot;]/div[@class=&quot;grid-content-list__content&quot;]/div[@class=&quot;cards cards_list&quot;]/div[@class=&quot;cards__content&quot;]/a[@class=&quot;card card_list&quot;]/div[@class=&quot;card__head&quot;]/h3[@class=&quot;card__title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='rso']/div/div/div/div/a/h3</value>
+      <value>//div[@id='app']/div[2]/div[2]/div[4]/div/div[2]/a[4]/div[2]/h3</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Результаты поиска'])[1]/following::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Группа клиник «СОГАЗ МЕДИЦИНА»'])[1]/following::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Поиск в справке'])[1]/following::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Центр современной педиатрии'])[1]/following::h3[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://fly-code.com'])[1]/preceding::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Клиники ', '&quot;', 'СМТ', '&quot;', '')])[1]/preceding::h3[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://fly-code.com'])[2]/preceding::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Клиники ', '&quot;', 'СМТ', '&quot;', '')])[2]/preceding::h3[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Fly Code']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Медика']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h3</value>
+      <value>//a[4]/div[2]/h3</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = '
+      Медика
+    ' or . = '
+      Медика
+    ')]</value>
    </webElementXpaths>
 </WebElementEntity>

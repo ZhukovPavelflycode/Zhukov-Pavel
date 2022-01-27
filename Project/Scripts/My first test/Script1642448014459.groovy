@@ -23,13 +23,13 @@ WebUI.navigateToUrl('https://www.google.com/', FailureHandling.CONTINUE_ON_FAILU
 
 WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/input Fly code'), 'fly code', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('First test/input Fly code'), 'fly code', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Object Repository/input Fly code'), Keys.chord(Keys.ENTER), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('First test/input Fly code'), Keys.chord(Keys.ENTER), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Press Fly Code'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('First test/Press Fly Code'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Number'), '+7 499 112 34 72', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('First test/Number'), '+7 499 112 34 72', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Digital-/Logo'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 

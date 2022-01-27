@@ -3,15 +3,15 @@
    <description></description>
    <name>input Fly code</name>
    <tag></tag>
-   <elementGuidId>9644fc43-cf01-4686-8e8f-8dfd131a035a</elementGuidId>
+   <elementGuidId>f8559abe-a2a6-4946-8e45-e1d7e51081c2</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;q&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;q&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

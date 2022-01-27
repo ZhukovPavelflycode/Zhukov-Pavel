@@ -17,32 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(425, 1000, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://staticsite.symptomd.com/')
+WebUI.navigateToUrl('https://staticsite.symptomd.com/', FailureHandling.STOP_ON_FAILURE)
 
 'Открыть список городов\r\n'
-WebUI.click(findTestObject('Object Repository/Symptom/Location'))
+WebUI.click(findTestObject('Object Repository/Symptom/Location'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Krasnodar'))
+WebUI.click(findTestObject('Object Repository/Symptom/Krasnodar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Gender-M'))
+WebUI.click(findTestObject('Object Repository/Symptom/Gender-M'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Symptom/Age 65'), '65')
+WebUI.setText(findTestObject('Object Repository/Symptom/Age 65'), '65', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Button clinic'))
+WebUI.click(findTestObject('Object Repository/Symptom/Button clinic'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Button city'))
+WebUI.click(findTestObject('Object Repository/Symptom/Button city'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Press Seint-Petersburg'))
+WebUI.click(findTestObject('Object Repository/Symptom/Press Seint-Petersburg'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Symptom/Imput Voronezh'), 'Воронеж')
+WebUI.setText(findTestObject('Object Repository/Symptom/Imput Voronezh'), 'Воронеж', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Press Voronezh'))
+WebUI.click(findTestObject('Object Repository/Symptom/Press Voronezh'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowUrl('https://staticsite.symptomd.com/clinic/spbmedika')
+WebUI.click(findTestObject('Symptom/Object Repository/Exite-form'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Press site'))
+WebUI.click(findTestObject('Object Repository/Symptom/Page_/Head Medica'))
+
+WebUI.click(findTestObject('Object Repository/Symptom/Page_/Press site'))
 
