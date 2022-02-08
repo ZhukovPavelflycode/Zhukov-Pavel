@@ -24,27 +24,41 @@ WebUI.setViewPortSize(425, 1000, FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://staticsite.symptomd.com/', FailureHandling.STOP_ON_FAILURE)
 
 'Открыть список городов\r\n'
-WebUI.click(findTestObject('Object Repository/Symptom/Location'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Symptom/Location 3 test'), FailureHandling.STOP_ON_FAILURE)
 
+'Выбрать город Самара\r\n'
 WebUI.click(findTestObject('Object Repository/Symptom/Krasnodar'), FailureHandling.STOP_ON_FAILURE)
 
+'Выбрать пол М'
 WebUI.click(findTestObject('Object Repository/Symptom/Gender-M'), FailureHandling.STOP_ON_FAILURE)
 
+'Выбрать возраст 65'
 WebUI.setText(findTestObject('Object Repository/Symptom/Age 65'), '65', FailureHandling.STOP_ON_FAILURE)
 
+'Перейти на страницу "Клиники"'
 WebUI.click(findTestObject('Object Repository/Symptom/Button clinic'), FailureHandling.STOP_ON_FAILURE)
 
+'Сверить возраст 65'
+WebUI.verifyElementText(findTestObject('Symptom/Examination 65'), '65')
+
+'Нажать на фильтр "Города"\r\n'
 WebUI.click(findTestObject('Object Repository/Symptom/Button city'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Press Seint-Petersburg'), FailureHandling.STOP_ON_FAILURE)
+'Выбрать город Санкт-Петербург'
+WebUI.click(findTestObject('Symptom/Press Seint-Petersburg'), FailureHandling.STOP_ON_FAILURE)
 
+'Ввести город Воронеж в поиск'
 WebUI.setText(findTestObject('Object Repository/Symptom/Imput Voronezh'), 'Воронеж', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Press Voronezh'), FailureHandling.STOP_ON_FAILURE)
+'Выбрать Воронеж'
+WebUI.click(findTestObject('Symptom/Press Voronezh'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Symptom/Object Repository/Exite-form'), FailureHandling.STOP_ON_FAILURE)
+'Закрыть форму выбора городов'
+WebUI.click(findTestObject('Object Repository/Symptom/Exite-form'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Symptom/Page_/Head Medica'))
+'Перейти в клинику "Медика"\r\n'
+WebUI.click(findTestObject('Symptom/Head Medica'))
 
-WebUI.click(findTestObject('Object Repository/Symptom/Page_/Press site'))
+'Перейти на сайт в карточка "Медика"'
+WebUI.click(findTestObject('Symptom/Press site'))
 

@@ -3,11 +3,10 @@
    <description></description>
    <name>Samara</name>
    <tag></tag>
-   <elementGuidId>6a3e340d-4cb9-4535-b5bf-5ad5aee0bbc3</elementGuidId>
+   <elementGuidId>aaee5c0a-9c09-4b7a-9a31-ab0957711bf8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

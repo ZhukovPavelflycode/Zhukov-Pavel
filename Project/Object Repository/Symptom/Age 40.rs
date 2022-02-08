@@ -3,15 +3,15 @@
    <description></description>
    <name>Age 40</name>
    <tag></tag>
-   <elementGuidId>c42efb6c-20fa-4c76-961c-b201ed26082c</elementGuidId>
+   <elementGuidId>842112a2-447f-4e54-8814-3762e2f4a32c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input.ageFilter__input</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/div[1]/div[2]/div/div[2]/div[2]/div[1]/div[2]/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ageFilter__input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

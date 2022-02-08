@@ -19,43 +19,46 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(425, 1000, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://staticsite.symptomd.com/')
 
 'Открыть список городов\r\n'
-WebUI.click(findTestObject('Object Repository/Symptom/Location'))
+WebUI.click(findTestObject('Symptom/Location 1,2 test'))
 
 'Выбрать город "Самара"'
-WebUI.click(findTestObject('Object Repository/Symptom/Samara'))
+WebUI.click(findTestObject('Symptom/Samara'))
 
 'Выбрать пол Ж'
-WebUI.click(findTestObject('Object Repository/Symptom/Gender Zh'))
+WebUI.click(findTestObject('Symptom/Gender Zh'))
 
 'Выбрать возраст "40"'
-WebUI.setText(findTestObject('Object Repository/Symptom/Age 40'), '40')
+WebUI.setText(findTestObject('Symptom/Age 40'), '40')
 
 'Перейти на страницу "Болезни"'
-WebUI.click(findTestObject('Object Repository/Symptom/Disease'))
+WebUI.click(findTestObject('Symptom/Disease'))
+
+'Проверка возраста на странице "Болезни"'
+WebUI.verifyElementText(findTestObject('Symptom/Examination 40'), '40')
 
 'Ввести в поиске "Мигрень"'
-WebUI.setText(findTestObject('Object Repository/Symptom/Imput disease'), 'Мигрень')
+WebUI.setText(findTestObject('Symptom/Imput disease'), 'Мигрень')
 
 'Войти в карточку "Мигрень"'
-WebUI.click(findTestObject('Object Repository/Symptom/Card disease'))
+WebUI.click(findTestObject('Symptom/Card disease'))
 
 'Нажать кнопку "Записаться"'
-WebUI.click(findTestObject('Object Repository/Symptom/Button enroll first'))
+WebUI.click(findTestObject('Symptom/Button enroll first'))
 
 'Ввести имя'
-WebUI.setText(findTestObject('Object Repository/Symptom/Input name'), 'Игорь')
+WebUI.setText(findTestObject('Symptom/Input name'), 'Игорь')
 
 'Ввести телефон'
-WebUI.setText(findTestObject('Object Repository/Symptom/Input phone'), '8-905-837-56-44')
+WebUI.setText(findTestObject('Symptom/Input phone'), '8-905-837-56-44')
 
 'Подтвердить введеные данные'
-WebUI.click(findTestObject('Object Repository/Symptom/Button enroll second'))
+WebUI.click(findTestObject('Symptom/Button enroll second'))
 
 'Нажать "Ок" в форме записи'
-WebUI.click(findTestObject('Object Repository/Symptom/button Ok'))
+WebUI.click(findTestObject('Symptom/button Ok'))
 

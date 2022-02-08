@@ -3,11 +3,10 @@
    <description></description>
    <name>Moscow</name>
    <tag></tag>
-   <elementGuidId>ae7634fe-6b25-443d-a58b-a4aad49f3e7f</elementGuidId>
+   <elementGuidId>79b866f9-efb3-40ce-9bbe-2007fc3972ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

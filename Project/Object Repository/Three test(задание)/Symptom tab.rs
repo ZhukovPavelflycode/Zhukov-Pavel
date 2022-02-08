@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Press site</name>
+   <name>Symptom tab</name>
    <tag></tag>
-   <elementGuidId>b9a280d0-8485-4c35-b874-e304adb38e6f</elementGuidId>
+   <elementGuidId>153eb5a7-180a-49fb-bc2e-147475737ead</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a[title=&quot;Сайт медицинской организации медика&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/div/div[2]/div[2]/div[4]/div[2]/div/div/div[2]/div/a</value>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[1]/div/div/div/nav/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,112 +25,86 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Сайт медицинской организации медика</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://spbmedika.ru/</value>
+      <value>/symptom</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>target</name>
+      <name>class</name>
       <type>Main</type>
-      <value>_blank</value>
+      <value>header__link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-          http://spbmedika.ru/
-        </value>
+      <value>Симптомы
+              </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;information&quot;)/div[@class=&quot;cardText__content&quot;]/div[@class=&quot;iconCards&quot;]/div[@class=&quot;iconCards__list&quot;]/div[@class=&quot;iconCard&quot;]/div[@class=&quot;iconCard__content&quot;]/a[1]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;application--wrap&quot;]/div[@class=&quot;header-container&quot;]/div[@class=&quot;content-container&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header__content&quot;]/nav[@class=&quot;header__navigation&quot;]/ul[1]/li[2]/a[@class=&quot;header__link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='information']/div[2]/div/div/div[2]/div/a</value>
+      <value>//div[@id='app']/div[2]/div/div/div/div/nav/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'http://spbmedika.ru/')]</value>
+      <value>//a[contains(text(),'Симптомы')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Официальный сайт'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Болезни'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Телефон регистратуры'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='β'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Медицинская лицензия'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Клиники'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ЛО-78-01-006959 от 11.07. 2016 г'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='http://spbmedika.ru/']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Симптомы']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://spbmedika.ru/']</value>
+      <value>//a[contains(@href, '/symptom')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/div[2]/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@title = 'Сайт медицинской организации медика' and @href = 'http://spbmedika.ru/' and (text() = '
-          http://spbmedika.ru/
-        ' or . = '
-          http://spbmedika.ru/
-        ')]</value>
+      <value>//li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

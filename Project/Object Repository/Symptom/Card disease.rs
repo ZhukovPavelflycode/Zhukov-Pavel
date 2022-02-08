@@ -3,7 +3,7 @@
    <description></description>
    <name>Card disease</name>
    <tag></tag>
-   <elementGuidId>7cd3f110-0062-4739-b3ce-1e85ede03275</elementGuidId>
+   <elementGuidId>62f79064-2420-463e-950f-4b0d9ffb4ac0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

@@ -3,7 +3,7 @@
    <description></description>
    <name>Disease</name>
    <tag></tag>
-   <elementGuidId>99e5611d-12f1-4873-b8f2-4c5c41ef8acd</elementGuidId>
+   <elementGuidId>3155aaaf-9bee-4468-a1af-75a15cec7768</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

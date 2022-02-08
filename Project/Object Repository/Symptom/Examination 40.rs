@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Gender Zh</name>
+   <name>Examination 40</name>
    <tag></tag>
-   <elementGuidId>2202a7d5-f339-4eb1-93f2-1f067ab7895e</elementGuidId>
+   <elementGuidId>4ecc49f2-5691-4a37-837f-adfd5a3d40f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.my-0.v-btn.v-btn--floating.v-btn--small.theme--light.white > div.v-btn__content</value>
+         <value>span.ageFilter__title.ageFilter__title_age</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/div/div[2]/div[2]/div[1]/div[2]/button[2]/div</value>
+         <value>/html/body/div[1]/div[2]/div/div[2]/div[2]/div[1]/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,77 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>v-btn__content</value>
+      <value>ageFilter__title ageFilter__title_age</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ж
-  </value>
+      <value>40</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;application--wrap&quot;]/div[@class=&quot;content-container grid-content-page&quot;]/div[@class=&quot;diagnostic&quot;]/div[@class=&quot;socialInfo&quot;]/button[@class=&quot;my-0 v-btn v-btn--floating v-btn--small theme--light white&quot;]/div[@class=&quot;v-btn__content&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;application--wrap&quot;]/div[@class=&quot;content-container grid-content-list&quot;]/div[@class=&quot;socialInfo&quot;]/div[@class=&quot;ageFilter&quot;]/span[@class=&quot;ageFilter__title ageFilter__title_age&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div[2]/div[2]/div/div[2]/button[2]/div</value>
+      <value>//div[@id='app']/div[2]/div[2]/div/div/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='M'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Возраст:'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Введите симптом'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ж'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Возраст:'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='expand_less'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='expand_less'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='expand_more'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ж']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='40']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]/div</value>
+      <value>//span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '40' or . = '40')]</value>
    </webElementXpaths>
 </WebElementEntity>

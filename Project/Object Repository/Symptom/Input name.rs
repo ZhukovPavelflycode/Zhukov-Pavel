@@ -3,7 +3,7 @@
    <description></description>
    <name>Input name</name>
    <tag></tag>
-   <elementGuidId>4a7cbbb8-92ca-45e7-b190-775179d491c3</elementGuidId>
+   <elementGuidId>977ce3fc-e5c1-49f5-afd4-eed9392f6243</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

@@ -3,7 +3,7 @@
    <description></description>
    <name>Input cough</name>
    <tag></tag>
-   <elementGuidId>eb9af5c5-5246-4ed5-8c9d-26eb6d8221e6</elementGuidId>
+   <elementGuidId>8a8ba6f2-0a22-406b-908c-f0edb6a2fb5c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

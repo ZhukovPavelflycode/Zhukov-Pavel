@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 'Переход на сайт риа новости'
-WebUI.navigateToUrl('https://ria.ru/', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl('https://ria.ru/', FailureHandling.STOP_ON_FAILURE)
 
 'Получаем текст в переменную'
-N = WebUI.getText(findTestObject('Object Repository/Second test (переменная)/News'), FailureHandling.CONTINUE_ON_FAILURE)
+N = WebUI.getText(findTestObject('Object Repository/Second test (переменная)/News'), FailureHandling.STOP_ON_FAILURE)
 
 'Переходим на новость'
-WebUI.click(findTestObject('Object Repository/Second test (переменная)/News'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Second test (переменная)/News'), FailureHandling.STOP_ON_FAILURE)
 
 'Сравнивает переменную и заголовок новости'
-WebUI.verifyElementText(findTestObject('Object Repository/Second test (переменная)/Page'), N, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Second test (переменная)/Page'), N, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.back(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.back(FailureHandling.STOP_ON_FAILURE)
 

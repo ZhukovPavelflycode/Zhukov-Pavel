@@ -17,18 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.noob-club.ru/', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl('https://www.noob-club.ru/', FailureHandling.STOP_ON_FAILURE)
 
 'Получить текст с заголовка и записать в переменную'
-W = WebUI.getText(findTestObject('Object Repository/Three test(задание)/WoW Classic'), FailureHandling.CONTINUE_ON_FAILURE)
+W = WebUI.getText(findTestObject('Object Repository/Three test(задание)/WoW Classic'), FailureHandling.STOP_ON_FAILURE)
 
 'Переход в новость'
-WebUI.click(findTestObject('Object Repository/Three test(задание)/WoW Classic'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Three test(задание)/WoW Classic'), FailureHandling.STOP_ON_FAILURE)
 
 'Сравнивает входную переменную с текстовыми данными'
-WebUI.verifyMatch('Сообщество хардкорщиков «Сезона мастерства» WoW Classic полностью прошло Огненные Недра', W, true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch('Сообщество хардкорщиков «Сезона мастерства» WoW Classic полностью прошло Огненные Недра', W, true, FailureHandling.STOP_ON_FAILURE)
 

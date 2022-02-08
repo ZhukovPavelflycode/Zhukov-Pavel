@@ -3,7 +3,7 @@
    <description></description>
    <name>Input phone</name>
    <tag></tag>
-   <elementGuidId>4bdfda39-edaa-41d6-8deb-7a5a6905d38c</elementGuidId>
+   <elementGuidId>f5318048-e4d4-438d-8ba7-c00c7b459c94</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

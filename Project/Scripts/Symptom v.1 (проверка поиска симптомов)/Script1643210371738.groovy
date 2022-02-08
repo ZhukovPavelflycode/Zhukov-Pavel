@@ -19,30 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.setViewPortSize(425, 1000, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://symptomd.ru/')
 
 'Открыть список городов\r\n'
-WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Location'))
+WebUI.click(findTestObject('Symptom/Location 1,2 test'))
 
 'Выбрать Москва'
-WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Moscow'))
+WebUI.click(findTestObject('Symptom/Moscow'))
 
 'Сменить пол на "М"'
-WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Gender_M'))
+WebUI.click(findTestObject('Symptom/Gender_M'))
 
 'Сменить возраст на "20"'
-WebUI.setText(findTestObject('Object Repository/Symptom/Symptom/Age 20'), '20')
+WebUI.setText(findTestObject('Symptom/Age 20'), '20')
 
 'Перейти на вкладку "Симптомы"'
-WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Symptom tab'))
+WebUI.click(findTestObject('Three test(задание)/Symptom tab'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Symptom/Page_/Examination 33'), '33')
+'Проверка на возраст на странице "Симптомы"'
+WebUI.verifyElementText(findTestObject('Symptom/Examination 20'), '20')
 
 'Ввести в поиске "Кашель"'
-WebUI.setText(findTestObject('Object Repository/Symptom/Symptom/Input cough'), 'Кашель')
+WebUI.setText(findTestObject('Symptom/Input cough'), 'Кашель')
 
 'Зайти в карточку "Кашель"'
-WebUI.click(findTestObject('Object Repository/Symptom/Symptom/Card enty'))
+WebUI.click(findTestObject('Symptom/Card enty'))
 

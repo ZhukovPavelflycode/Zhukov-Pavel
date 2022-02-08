@@ -3,7 +3,7 @@
    <description></description>
    <name>button Ok</name>
    <tag></tag>
-   <elementGuidId>b7170163-840c-47f7-ae20-8f0924132c4d</elementGuidId>
+   <elementGuidId>fd9e77e2-9a87-42b0-a820-eac1fe873a92</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

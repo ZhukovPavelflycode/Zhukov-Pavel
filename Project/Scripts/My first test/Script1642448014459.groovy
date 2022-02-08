@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.google.com/', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl('https://www.google.com/', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('First test/input Fly code'), 'fly code', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('First test/input Fly code'), 'fly code', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('First test/input Fly code'), Keys.chord(Keys.ENTER), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.sendKeys(findTestObject('First test/input Fly code'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('First test/Press Fly Code'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('First test/Press Fly Code'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('First test/Number'), '+7 499 112 34 72', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('First test/Number'), '+7 499 112 34 72', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_Digital-/Logo'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_Digital-/Logo'), 1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_Digital-/Create'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_Digital-/Create'), 1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://fly-code.com/', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl('https://fly-code.com/', FailureHandling.STOP_ON_FAILURE)
 

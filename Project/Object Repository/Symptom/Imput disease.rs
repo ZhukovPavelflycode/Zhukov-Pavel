@@ -3,7 +3,7 @@
    <description></description>
    <name>Imput disease</name>
    <tag></tag>
-   <elementGuidId>e4f13a02-4751-4e02-a02b-e3a99792aab2</elementGuidId>
+   <elementGuidId>afaa2f1e-cce7-4b69-9d89-51376cdd4d9a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

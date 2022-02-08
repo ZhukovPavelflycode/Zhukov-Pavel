@@ -17,24 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('', FailureHandling.STOP_ON_FAILURE)
-
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
-
-WebUI.navigateToUrl('https://www.noob-club.ru/', FailureHandling.STOP_ON_FAILURE)
-
-'Переход на страницу 14\r\n'
-WebUI.click(findTestObject('Object Repository/Three test(задание) hardmode/click page 14'), FailureHandling.STOP_ON_FAILURE)
-
-'Получаем название заголовка в переменную'
-Op = WebUI.getText(findTestObject('Object Repository/Three test(задание) hardmode/Click on header news'), FailureHandling.STOP_ON_FAILURE)
-
-'Открываем страницу с новостью'
-WebUI.click(findTestObject('Object Repository/Three test(задание) hardmode/Click on header news'), FailureHandling.STOP_ON_FAILURE)
-
-'Получаем в переменную заголовок новости внутри страницы'
-Ip = WebUI.getText(findTestObject('Object Repository/Three test(задание) hardmode/Header new on page'), FailureHandling.STOP_ON_FAILURE)
-
-'Сравниваем результаты'
-WebUI.verifyMatch(Op, Ip, true, FailureHandling.STOP_ON_FAILURE)
-

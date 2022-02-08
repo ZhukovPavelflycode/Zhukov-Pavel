@@ -3,7 +3,7 @@
    <description></description>
    <name>Card enty</name>
    <tag></tag>
-   <elementGuidId>dea064c3-017a-4a08-88ae-c603fde823b2</elementGuidId>
+   <elementGuidId>59232d80-401b-47ab-89c6-927bc7324d2d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
